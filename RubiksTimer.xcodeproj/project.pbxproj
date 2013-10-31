@@ -21,6 +21,7 @@
 		8B297B55181F5478002EC0C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B297B37181F5478002EC0C4 /* UIKit.framework */; };
 		8B297B5D181F5478002EC0C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B297B5B181F5478002EC0C4 /* InfoPlist.strings */; };
 		8B297B5F181F5478002EC0C4 /* RubiksTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B297B5E181F5478002EC0C4 /* RubiksTimerTests.m */; };
+		8B297B6A18207435002EC0C4 /* Info Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B297B6918207435002EC0C4 /* Info Page.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8B297B5A181F5478002EC0C4 /* RubiksTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubiksTimerTests-Info.plist"; sourceTree = "<group>"; };
 		8B297B5C181F5478002EC0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B297B5E181F5478002EC0C4 /* RubiksTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubiksTimerTests.m; sourceTree = "<group>"; };
+		8B297B6818207435002EC0C4 /* Info Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Info Page.h"; sourceTree = "<group>"; };
+		8B297B6918207435002EC0C4 /* Info Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Info Page.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				8B297B42181F5478002EC0C4 /* AppDelegate.h */,
 				8B297B43181F5478002EC0C4 /* AppDelegate.m */,
 				8B297B45181F5478002EC0C4 /* Main.storyboard */,
+				8B297B6818207435002EC0C4 /* Info Page.h */,
+				8B297B6918207435002EC0C4 /* Info Page.m */,
 				8B297B48181F5478002EC0C4 /* ViewController.h */,
 				8B297B49181F5478002EC0C4 /* ViewController.m */,
 				8B297B4B181F5478002EC0C4 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				8B297B4A181F5478002EC0C4 /* ViewController.m in Sources */,
 				8B297B44181F5478002EC0C4 /* AppDelegate.m in Sources */,
 				8B297B40181F5478002EC0C4 /* main.m in Sources */,
+				8B297B6A18207435002EC0C4 /* Info Page.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
