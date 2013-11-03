@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>254C2D09-7ABD-43CF-A8FC-85E1A07744E3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RubiksTimer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>56895CA9-0F12-49AC-8648-194B420C4175</key>
+		<string>https://github.com/prestonbrown/RubiksTimer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RubiksTimer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>56895CA9-0F12-49AC-8648-194B420C4175</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/prestonbrown/RubiksTimer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>56895CA9-0F12-49AC-8648-194B420C4175</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>56895CA9-0F12-49AC-8648-194B420C4175</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RubiksTimer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

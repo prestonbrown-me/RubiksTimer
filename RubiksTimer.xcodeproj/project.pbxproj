@@ -22,6 +22,7 @@
 		8B297B5D181F5478002EC0C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B297B5B181F5478002EC0C4 /* InfoPlist.strings */; };
 		8B297B5F181F5478002EC0C4 /* RubiksTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B297B5E181F5478002EC0C4 /* RubiksTimerTests.m */; };
 		8B297B6A18207435002EC0C4 /* Info Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B297B6918207435002EC0C4 /* Info Page.m */; };
+		8B3FA4661825AF9800A58BF9 /* I.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3FA4651825AF9800A58BF9 /* I.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		8B297B5E181F5478002EC0C4 /* RubiksTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubiksTimerTests.m; sourceTree = "<group>"; };
 		8B297B6818207435002EC0C4 /* Info Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Info Page.h"; sourceTree = "<group>"; };
 		8B297B6918207435002EC0C4 /* Info Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Info Page.m"; sourceTree = "<group>"; };
+		8B3FA4651825AF9800A58BF9 /* I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				8B297B48181F5478002EC0C4 /* ViewController.h */,
 				8B297B49181F5478002EC0C4 /* ViewController.m */,
 				8B297B4B181F5478002EC0C4 /* Images.xcassets */,
+				8B3FA4651825AF9800A58BF9 /* I.png */,
 				8B297B3A181F5478002EC0C4 /* Supporting Files */,
 			);
 			path = RubiksTimer;
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B297B4C181F5478002EC0C4 /* Images.xcassets in Resources */,
+				8B3FA4661825AF9800A58BF9 /* I.png in Resources */,
 				8B297B3E181F5478002EC0C4 /* InfoPlist.strings in Resources */,
 				8B297B47181F5478002EC0C4 /* Main.storyboard in Resources */,
 			);
@@ -466,6 +470,7 @@
 				8B297B64181F5478002EC0C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B297B65181F5478002EC0C4 /* Build configuration list for PBXNativeTarget "RubiksTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				8B297B67181F5478002EC0C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
