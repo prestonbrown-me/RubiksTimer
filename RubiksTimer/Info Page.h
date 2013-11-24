@@ -2,7 +2,7 @@
 //  Info Page.h
 //  RubiksTimer
 //
-//  Created by Developer on 10/29/13.
+//  Created by Preston Brown on 10/29/13.
 //  Copyright (c) 2013 Developer. All rights reserved.
 //
 

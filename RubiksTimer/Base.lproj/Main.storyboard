@@ -32,7 +32,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qa-2j-8O7">
                                 <rect key="frame" x="444" y="34" width="104" height="266"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.12685408839076884" green="0.17728378519818822" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0023652419339999999" green="0.31851861809999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Right Hand">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -45,7 +45,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gir-oy-ia2">
                                 <rect key="frame" x="132" y="34" width="304" height="266"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.03626506026244547" green="1" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.032785141945821543" green="0.90404211956521741" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="stopTimer:" destination="vXZ-lx-hvc" eventType="touchDown" id="bGw-P4-Q0o"/>
                                 </connections>

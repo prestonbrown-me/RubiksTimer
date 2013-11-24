@@ -2,7 +2,7 @@
 //  ViewController.m
 //  RubiksTimer
 //
-//  Created by Developer on 10/28/13.
+//  Created by Preston Brown on 10/28/13.
 //  Copyright (c) 2013 Developer. All rights reserved.
 //
 
@@ -21,7 +21,13 @@ int timeVal = 0, minVal, milVal, secVal;
 
 - (void)viewDidLoad
 {
+    
+    //Loads the default view for the text view
     [super viewDidLoad];
+    
+    
+    //Time lable is not an integer value, rather, a string that is rendered for
+    //looks only before an actual value is assigned to the counter.
     
     self.timeLabel.text = @"00 : 00 : 00";
     
