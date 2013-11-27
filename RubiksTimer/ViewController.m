@@ -25,6 +25,10 @@ int timeVal = 0, minVal, milVal, secVal;
     //Loads the default view for the text view
     [super viewDidLoad];
     
+    //Set Color to basic blue when view loads.
+    [_leftButton setBackgroundColor: [UIColor blueColor]];
+    [_rightButton setBackgroundColor: [UIColor blueColor]];
+    
     
     //Time lable is not an integer value, rather, a string that is rendered for
     //looks only before an actual value is assigned to the counter.
@@ -41,6 +45,15 @@ int timeVal = 0, minVal, milVal, secVal;
 
 - (IBAction)leftPressed:(id)sender {
     isLeftPressed = true;
+    //While the button is held, make the color turn to red to indicate it is being pressed
+    [_leftButton setBackgroundColor: [UIColor redColor]];
+}
+
+- (IBAction)rightPressed:(id)sender {
+    isRightPressed = true;
+    //While the button is held, make the color turn to red to indicate it is being pressed
+    [_rightButton setBackgroundColor: [UIColor redColor]];
+
 }
 
 - (IBAction)leftReleased:(id)sender {
@@ -50,11 +63,10 @@ int timeVal = 0, minVal, milVal, secVal;
     }
     
     isLeftPressed = false;
+    //When button is released return to original blue color
+    [_leftButton setBackgroundColor: [UIColor blueColor]];
 }
 
-- (IBAction)rightPressed:(id)sender {
-    isRightPressed = true;
-}
 
 - (IBAction)rightReleased:(id)sender {
     if (isRightPressed && isLeftPressed) {
@@ -63,6 +75,9 @@ int timeVal = 0, minVal, milVal, secVal;
     }
     
     isRightPressed = false;
+    //When button is released return to original blue color
+
+    [_rightButton setBackgroundColor: [UIColor blueColor]];
     
 }
 

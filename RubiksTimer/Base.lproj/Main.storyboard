@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -82,7 +82,9 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="infoButton" destination="Rsd-Vr-JmW" id="3ah-49-i4D"/>
+                        <outlet property="leftButton" destination="DtX-O3-KMT" id="di8-cT-LpU"/>
                         <outlet property="resetButton" destination="p9D-9V-15w" id="hog-je-81X"/>
+                        <outlet property="rightButton" destination="7Qa-2j-8O7" id="bNa-1d-One"/>
                         <outlet property="timeLabel" destination="oK0-03-S4N" id="cFZ-lp-qJE"/>
                     </connections>
                 </viewController>
