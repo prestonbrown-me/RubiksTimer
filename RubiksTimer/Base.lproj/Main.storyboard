@@ -148,7 +148,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">To use Cube Timer, place both hands on either side of the device and make sure that they are coming into contact with the blue rectangles. As soon as your hands leave the device, the timer will start. When you have finished solving the cube, quickly tap the center of the screen where the light green is located to stop the timer.</string>
+                                        <string key="content">To use Cube timer, place both hands on either side of the screen, making sure to press the buttons. They will turn red to indicate that the screen can sense your hands. When you are finished solving your puzzle, quickly tap the center green box to stop the timer.</string>
                                         <attributes>
                                             <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <font key="NSFont" size="17" name="HelveticaNeue-Light"/>

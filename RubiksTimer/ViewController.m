@@ -30,7 +30,7 @@ int timeVal = 0, minVal, milVal, secVal;
     [_rightButton setBackgroundColor: [UIColor blueColor]];
     
     
-    //Time lable is not an integer value, rather, a string that is rendered for
+    //Time label is not an integer value, rather, a string that is rendered for
     //looks only before an actual value is assigned to the counter.
     
     self.timeLabel.text = @"00 : 00 : 00";
